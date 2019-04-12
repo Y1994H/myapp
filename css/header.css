@@ -1,0 +1,122 @@
+body,
+ul,
+li,
+dl,
+dt,
+dd,
+p,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+img,
+table,
+fieldset,
+legend {
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+li,
+ol {
+	list-style: none;
+}
+
+img,
+fieldset {
+	border: 0;
+}
+
+img {
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 100;
+}
+
+body {
+	background: #FFFFFF;
+	font-family: "微软雅黑";
+
+}
+
+input,
+a {
+	outline: none;
+}
+
+::selection {
+	color: #ff0000;
+	background: #FFFFFF;
+	opacity: .2;
+}
+
+::-moz-selection {
+	color: #ff0000;
+}
+
+
+/*header*/
+
+#header-wrap {
+	width: 100%;
+	overflow: hidden;
+}
+
+header {
+	width: 100%;
+	line-height: 52px;
+	display: flex;
+	background: #FFFFFF;
+	position: relative;
+	min-width: 768px;
+	margin: 0 auto;
+}
+
+#logo {
+	width: 150px;
+	height: 46px;
+	margin: 2%;
+}
+
+#logo img {
+	width: 154px;
+	height: 55px;
+}
+.header-ul {
+	margin-top: 2.7%;
+	width: 100%;
+	height: auto;
+}
+
+.header-ul li {
+	height: 33px;
+	line-height: 33px;
+	font-family: MicrosoftYaHeiUI;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #000000;
+	margin-left: 7px;
+	float:left
+}
+
+.header-ul li:hover a{
+	color:#006eba;
+}

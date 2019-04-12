@@ -1,0 +1,220 @@
+
+@media screen and (min-width: 768px) {
+	#content {
+		width: 768px;
+	}
+	.header-ul {
+		height: 100px;
+		margin-top: 0px;
+	}
+	.header-ul li {
+		height: 100px;
+		line-height: 100px;
+		float: left;
+	}
+	#logo img {
+		margin-left: 0;
+		margin-top: 9%;
+	}
+	#nav {
+		width: 100%;
+	}
+	.nav-ul {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+	.TE-b {
+		margin-left: 33%;
+	}
+	.SZ {
+		width: 100%;
+		height: auto;
+	}
+	.DL {
+		width: 100%;
+		height: auto;
+	}
+	.DL p {
+		height: auto;
+	}
+	.case-left {
+		width: 100%;
+	}
+	.case-left>li {
+		width: 100%;
+		height: auto;
+	}
+	.founder>img {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+	.founder-b {
+		width: 454px;
+		float: right;
+	}
+	.Newtion-img {
+		width: 52%;
+		position: absolute;
+		left: 0;
+	}
+	.Group-c {
+		margin-top: 5%;
+	}
+	#DR{
+	    width: 100%;
+	    height: auto;
+}
+.detail-right-b {
+	width: 100%;
+	display: flex;
+	height: 119px;
+}
+.right-on{
+	width: 50%;
+	border-right: 1px solid #ccc;
+}
+}
+
+@media only screen and (min-width:1080px) {
+	#content {
+		width: 980px;
+	}
+	.header-ul {
+		margin-left: 12%;
+	}
+	.header-ul li {
+		margin-left: 4%;
+	}
+	#logo img {
+		margin: 2%;
+	}
+	.vdo {
+		width: 40.9%;
+		height: 30%;
+	}
+	.TE-b {
+		margin-left: 39%;
+	}
+	.item {
+		width: 100%;
+		height: 160px;
+		overflow: hidden;
+	}
+	.case-right {
+		float: right;
+		width: 21.17%;
+		height: 1000px;
+	}
+	.case-left {
+		width: 74.2%;
+		float: left;
+	}
+	.case-right-btn {
+		clear: both;
+		width: 98.17%;
+		margin-top: 0;
+	}
+	.case-right-one {
+		width: 100%;
+		clear: both;
+		margin-top: 80px;
+		margin-left: 0;
+	}
+	.Course-review {
+		width: 100%;
+		margin-top: 110px;
+		clear: both;
+		margin-left: 0;
+	}
+	.News-Center {
+		width: 100%;
+		margin-top: 110px;
+		clear: both;
+		margin-left: 0;
+	}
+	.Group-b {
+		float: left;
+	}
+	.Group-c {
+		float: right;
+	}
+	.founder>img {
+		position: absolute;
+		bottom: 0;
+		left: 24%;
+	}
+	.founder-b {
+		width: 722px;
+		float: right;
+	}
+	.teacher-Introduction {
+		width: 800px;
+	}
+	.NewList-left {
+		float: left;
+		width: 905px;
+	}
+	.Newtion-img {
+		width: 33%;
+		position: absolute;
+		top: -13px;
+		left: 20%;
+	}
+	.detail-left {
+		float: left;
+	}
+	.detail-right {
+		float: right;
+	}
+	.us-left {
+		width: 700px;
+		float: left;
+	}
+	.us-right {
+		float: right;
+		margin-top: 139px;
+	}
+	footer {
+		width: 100%;
+		height: 371px;
+		overflow: hidden;
+		background: #333333;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+}
+
+@media only screen and (min-width:1200px) {
+	#content {
+		width: 1200px;
+		margin: auto;
+	}
+	header {
+		height: 100px;
+	}
+	.header-ul {
+		height: 100%;
+		line-height: 100px;
+	}
+	/*#banner{
+		height: 500px;
+	}*/
+	/*#banner1{
+		height: 300px;
+	}*/
+	.course-ul li {
+		width: 270px;
+		height: 220px;
+		background: #FFFFFF;
+	}
+	.course-img {
+		width: 250px;
+		height: 140px;
+		background: #FFFFFF;
+		margin: 10px;
+	}
+}

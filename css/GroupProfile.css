@@ -1,0 +1,232 @@
+
+#Group-wrap{
+	width: 100%;
+	height: auto;
+	margin-top: 95px;
+	overflow: hidden;
+}
+.Group{
+	width: 100%;
+	height: auto;
+}
+.Group-a,.founder-a,.planning-a,.principle-a,.culture-a,.music-a,.Architecture-a{
+	width: 100%;
+	height: 22px;
+	margin-bottom: 85px;
+}
+.Group-box,.Founder-box,.Planning-box,.Principle-box,.Culture-box,.Music-box,.Architecture-box{
+	width: 4px;
+	height: 21px;
+	background-color: #e60012;
+	border-radius: 2px;
+	display: inline-block;
+	float: left;
+	margin-top: 2px;
+}
+.Group-a h3,.founder-a h3,.planning-a h3,.principle-a h3,.culture-a h3,.music-a h3,.Architecture-a h3{
+	float: left;
+	font-family: SourceHanSansCN-Bold;
+	font-size: 22px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 24px;
+	letter-spacing: 0px;
+	color: #535353;
+	margin-left: 10px;
+}
+.Group-b{
+	width: 643px;
+	height: 302px;
+}
+.Group-b p{
+	font-family: SourceHanSansCN-Normal;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 24px;
+	letter-spacing: 0px;
+	color: #535353;
+	text-indent: 2em;
+}
+.Group-b p:nth-child(2){
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.Group-c{
+	width: 487px;
+	height: 272px;
+	background-color: #ffffff;
+	box-shadow: 0px 3px 26px 1px 
+		rgba(0, 0, 0, 0.11);
+}
+.Group-c video{
+	width: 100%;
+	height: 100%;
+}
+#FounderBox{
+	width: 100%;
+	position: relative;
+	margin-bottom: 119px;
+}
+#Founder-wrap-a{
+	width: 100%;
+	margin-top: 90px;
+	overflow: hidden;
+}
+#Founder-wrap{
+	width: 100%;
+	overflow: hidden;
+	background: #f4f4f4;
+	margin-top: 90px;
+}
+.founder{
+	width: 100%;
+	background: #F4F4F4;
+}
+ 
+.founder-b{
+	float: right;
+}
+.founder-b h3{
+	font-family: SourceHanSansCN-Bold;
+	font-size: 20px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 45px;
+	letter-spacing: 0px;
+	color: #000000;
+}
+.founder-b p img,.principle-ul li img,.culture-ul li img{
+	width: 11px;
+	height: 11px;
+	display: inline-block;
+}
+.founder-b p span{
+	font-family: SourceHanSansCN-Normal;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 19px;
+	letter-spacing: 0px;
+	color: #7a7a7a;
+}
+.founder-b p:nth-child(5){
+	text-indent: 2em;
+	font-family: SourceHanSansCN-Normal;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 24px;
+	letter-spacing: 0px;
+	color: #7a7a7a;
+	margin-top: 27px;
+	margin-bottom: 27px;
+}
+.planning-img,.music-img,.Architecture-img{
+	width: 100%;
+	height: auto;
+}
+.planning-img img,.music-img img{
+	width: 100%;
+	height: 100%;
+}
+#principle-wrap{
+	width: 100%;
+	background: #F4F4F4;
+	overflow: hidden;
+}
+.principle-a{
+	margin-top: 50px;
+}
+.principle-b{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.principle-ul{
+	margin-bottom: 80px;
+}
+.principle-ul li span,.culture-ul li span,.culture-ul li p{
+	font-family: SourceHanSansCN-Normal;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 24px;
+	letter-spacing: 0px;
+	color: #535353;
+}
+#culture-wrap{
+	width: 100%;
+	overflow: hidden;
+}
+.culture-a{
+	margin-top: 100px;
+}
+.culture-b{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 100px;
+}
+.culture-ul{
+	max-width: 336px;
+}
+.culture-ul li{
+	margin-bottom: 20px;
+}
+.culture-ul li p{
+	text-indent: 1em;
+}
+.culture-right{
+	max-width: 287px;
+	height: auto;
+}
+.culture-right-a{
+	width: 100%;
+	overflow: hidden;
+	border-bottom: solid 1px #057dd1;
+}
+.culture-right-a h3{
+	float: right;
+	font-family: SourceHanSansCN-Medium;
+	font-size: 20px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 24px;
+	letter-spacing: 4px;
+	color: #535353;
+	line-height: 46px;
+}
+.culture-right-ol li{
+	font-family: SourceHanSansCN-Medium;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 30px;
+	letter-spacing: 0px;
+	color: #535353;
+}
+#music-wrap{
+	width: 100%;
+	background: #F4F4F4;
+	overflow: hidden;
+}
+.music-a{
+	margin-top: 110px;
+}
+.music-img{
+	margin-bottom: 80px;
+}
+#Architecture-wrap{
+	width: 100%;
+	overflow: hidden;
+}
+.Architecture-a{
+	margin-top: 110px;
+	margin-bottom: 130px;
+	overflow: hidden;
+}
+.Architecture-img img{
+	margin: 0 auto;
+	margin-bottom: 130px;
+}

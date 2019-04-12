@@ -1,0 +1,86 @@
+#banner {
+	width: 100%;
+	height: auto;
+}
+
+#banner img {
+	width: 100%;
+	height: auto;
+}
+#teacher-wrap{
+	width: 100%;
+}
+#teacher{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin-bottom: 160px;
+}
+#teacher ul{
+	width: 100%;
+	height: auto;
+}
+
+.teacher-img{
+	width: 400px;
+	height: 523px;
+	border-bottom: 1px solid #505050;
+}
+.teacher-img img{
+	width: 100%;
+	height: 100%;
+}
+.teacher-Introduction{
+	height: 523px;
+    border-bottom: 1px solid #505050;
+}
+.teacher-Introduction h3{
+	font-family: SourceHanSansCN-Bold;
+	font-size: 32px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 45px;
+	letter-spacing: 0px;
+	color: #000000;
+	margin-top: 70px;
+}
+.teacher-p{
+	font-family: SourceHanSansCN-Normal;
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 45px;
+	letter-spacing: 0px;
+	color: #535353;
+	margin-bottom: 32px;
+}
+#teacher ul li:nth-child(even) div{
+	float: right;
+} 
+#teacher ul li:nth-child(odd) div{
+	float: left;
+}
+.teacher-a img{
+	width: 11px;
+	height: 11px;
+	display: inline-block;
+}
+.teacher-a span{
+	font-family: SourceHanSansCN-Normal;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 19px;
+	letter-spacing: 0px;
+	color: #7a7a7a;
+}
+.teacher-b{
+	font-family: SourceHanSansCN-Normal;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 30px;
+	letter-spacing: 0px;
+	color: #535353;
+	margin-top: 55px;
+}
